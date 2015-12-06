@@ -1,0 +1,114 @@
+Failsafe:
+
+
+
+HTML
+
+<header>
+  <header class="masthead">
+    <p class="masthead-intro">About</p>
+    <h1 class="masthead-heading">Case</h1>
+  </header>
+  <section>
+    <section class="mastbody-intro">
+      <h1>Introduction</h1>
+      <p>My name is Case Rosenfelt. I am an eleven ( soon to be twelve ) year-old in the sixth grade. I am a top student in my school, BASIS Tucson North, and I always try my best. Family is truly everything to me.</p>
+  </section>
+  <section>
+    <section class="mastbody-homeland">
+      <h1 class="mastbody-homeland">Where I'm From</h1>
+      <p class="mastbody-homeland">I am from Austin, Texas. However, as a result of my entrepeneur dad's companies, I moved around frequently. First I moved to a small fishing village in Costa Rica. Then, I lived in a town named Pocitos in Montevideo, Uruguay. Now I live in Tucson, Arizona.</p>
+  </section>
+  <section>
+    <section class="mastbody">
+      <h1 class="mastbody-mam">More About Me</h1>
+        <p class="mastbody-sub">What are your favorite hobbies?</p>
+        <p class="mastbody-mam">My favorite hobbies are reading, studying, and sleeping. My favorite of those being sleeping.</p>
+        <p class="mastbody-sub">What's your dream job?</p>
+        <p class="mastbody-mam">My dream job is to one day be the CEO of a successful software company.</p>
+        <p class="mastbody-sub">What music have you been listening to lately?</p>
+        <p class="mastbody-mam">Lately, I've been listening to Coldplay, U2, and Imagine Dragons. I also like Green Day, Wolf Parade, and The Fray.</p>
+        <p class="mastbody-sub">Do you have any background?</p>
+        <p class="mastbody-mam">While I have taken a few small classes, ( mainly about Javascript ) I am quite unexperienced in the realm of web-design. However, I am really excited about learning it!
+        
+  </section>
+  <footer>
+    <footer class="mastbody-social"
+    <h1 class="mastbody-social">Links to My Contact Information</h1>
+   <ui class="mastbody-social">
+     <li class="mastbody-social"><a href="https://www.instagram.com/lordoftheselfie/">Here is a link to my Instagram profile!</a></li>
+     <li class="mastbody-social"><a href="https://mail.google.com/mail/?tab=mm#search/chem6student%40gmail.com">And here is a link to my Gmail account!</a></li>
+    </ui>
+  </footer>
+
+CSS
+
+.mastbody-intro > p,
+.mastbody-homeland > p,
+.mastbody-social > h1 {
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+
+body {
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.masthead {
+  padding: 6em 0;
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+}
+
+.masthead-heading {
+  margin-top: -0.2em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.masthead {
+  color: white;
+  background-image: url(https://images.unsplash.com/photo-1434064511983-18c6dae20ed5?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=5f29d037842c14cb81cddea387221b20);
+  background-repeat: no repeat;
+  text-align: center;
+}
+
+.mastbody {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.mastbody-sub {
+  color: cornflowerblue;
+}
+
+.mastbody-social {
+  text-align: center;
+}
+
+.mastbody-intro > p
+.mastbody-homeland > p
+.mastbody-social > h1 {
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+
+.mastbody-mam
+.mastbody-sub {
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}

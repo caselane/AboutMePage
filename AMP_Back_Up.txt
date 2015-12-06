@@ -1,0 +1,80 @@
+Finished About Me Page:
+
+HTML:
+
+<header class="masthead">  
+    <p class="masthead-intro">About</p>
+    <h1 class="masthead-heading">Case!</h1> 
+</header>
+<section class="introduction-section">
+    <h1>Introduction</h1>
+    <p>My name is Case Rosenfelt. I am an eleven ( soon to be twelve ) year-old in the sixth grade. I am a top student in my school, BASIS Tucson North, and I always try my best.</p>
+    <p>Family is truly everything to me. They are the ones who care about me and keep me going. If it weren't for their constant and unfailing supply of love and support, I would not be here today.
+</section>
+<section class="location-section">
+    <h1>Where I'm From</h1>
+    <p>I am from Austin, Texas. However, as a result of my entrepeneur dad's companies, I moved around frequently. First I moved to a small fishing village in Costa Rica. Then, I lived in a town named Pocitos in Montevideo, Uruguay. Now I live in Tucson, Arizona.</p>
+</section>
+<section class="questions-section">
+    <h1>More About Me</h1>
+    <h2>What are your favorite hobbies?</h2>
+    <p>My favorite hobbies are reading, studying, and sleeping. My favorite of those being sleeping.</p>
+    <h2>What's your dream job?</h2>
+    <p>My dream job is to one day be the CEO of a successful software company.</p>
+    <h2>What music have you been listening to lately?</h2>
+    <p>Lately, I've been listening to Coldplay, U2, and Imagine Dragons. I also like Green Day, Wolf Parade, and The Fray.</p>
+    <h2>Do you have any background of front-end web design?</h2>
+    <p>While I have taken a few small classes, ( mainly about Javascript ) I am quite unexperienced in the realm of web-design. However, I am really excited about learning it!</p>
+</section>
+<footer class="content-footer">
+    <p>Here are some links to my contact-info:</p>
+    <ul class="social">
+        <li><a href=""https://www.instagram.com/lordoftheselfie/"">Instagram</a></li>
+        <li><a href="https://mail.google.com/mail/?tab=mm#search/chem6student%40gmail.com">Google+</a></li>
+    </ul>
+</footer>
+
+
+
+
+
+CSS:
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+}
+
+.masthead {
+    padding: 6em 0;
+    background-image: url('http://i.imgur.com/lvXbgcg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: solid 1em #FFCF33;
+}
+
+.masthead-intro {
+    margin-bottom: 0.1em;
+}
+
+.masthead-heading {
+    margin-top: -0.2em;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.social > li {
+    display: inline-block;
+}
+
+.content-footer > p {
+    color: white;
+}
